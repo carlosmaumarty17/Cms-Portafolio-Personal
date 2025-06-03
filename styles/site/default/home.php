@@ -613,26 +613,13 @@
                         <div class="social-media-block">
                             <h4>Follow Me: </h4>
                             <ul class="social-media-links">
-                                <?php if (config('facebook')): ?><li><a href="<?php echo config('facebook') ?>"><i class="fab fa-facebook-f"></i></a></li><?php endif ?>
-                                <?php if (config('twitter')): ?><li><a href="<?php echo config('twitter') ?>"><i class="fab fa-twitter"></i></a></li><?php endif ?>
-                                <?php if (config('linkedin')): ?><li><a href="<?php echo config('linkedin') ?>"><i class="fab fa-linkedin-in"></i></a></li><?php endif ?>
-                                <?php if (config('google_plus')): ?><li><a href="<?php echo config('google_plus') ?>"><i class="fab fa-google-plus-g"></i></a></li><?php endif ?>
-                                <?php if (config('behance')): ?><li><a href="<?php echo config('behance') ?>"><i class="fab fa-behance"></i></a></li><?php endif ?>
-                                <?php if (config('youtube')): ?><li><a href="<?php echo config('youtube') ?>"><i class="fab fa-youtube"></i></a></li><?php endif ?>
-                                <?php if (config('snapchat')): ?><li><a href="<?php echo config('snapchat') ?>"><i class="fab fa-snapchat-ghost"></i></a></li><?php endif ?>
-                                <?php if (config('vimeo')): ?><li><a href="<?php echo config('vimeo') ?>"><i class="fab fa-vimeo-v"></i></a></li><?php endif ?>
-                                <?php if (config('pinterest')): ?><li><a href="<?php echo config('pinterest') ?>"><i class="fab fa-pinterest-p"></i></a></li><?php endif ?>
-                                <?php if (config('codepen')): ?><li><a href="<?php echo config('codepen') ?>"><i class="fab fa-codepen"></i></a></li><?php endif ?>
-                                <?php if (config('dribbble')): ?><li><a href="<?php echo config('dribbble') ?>"><i class="fab fa-dribbble"></i></a></li><?php endif ?>
-                                <?php if (config('dropbox')): ?><li><a href="<?php echo config('dropbox') ?>"><i class="fab fa-dropbox"></i></a></li><?php endif ?>
-                                <?php if (config('flickr')): ?><li><a href="<?php echo config('flickr') ?>"><i class="fab fa-flickr"></i></a></li><?php endif ?>
-                                <?php if (config('reddit')): ?><li><a href="<?php echo config('reddit') ?>"><i class="fab fa-reddit"></i></a></li><?php endif ?>
-                                <?php if (config('rss')): ?><li><a href="<?php echo config('rss') ?>"><i class="fas fa-rss"></i></a></li><?php endif ?>
-                                <?php if (config('skype')): ?><li><a href="<?php echo config('skype') ?>"><i class="fab fa-skype"></i></a></li><?php endif ?>
-                                <?php if (config('soundcloud')): ?><li><a href="<?php echo config('soundcloud') ?>"><i class="fab fa-soundcloud"></i></a></li><?php endif ?>
-                                <?php if (config('stackoverfolw')): ?><li><a href="<?php echo config('stackoverfolw') ?>"><i class="fab fa-stack-overflow"></i></a></li><?php endif ?>
-                                <?php if (config('tumblr')): ?><li><a href="<?php echo config('tumblr') ?>"><i class="fab fa-tumblr"></i></a></li><?php endif ?>
-                                <?php if (config('yelp')): ?><li><a href="<?php echo config('yelp') ?>"><i class="fab fa-yelp"></i></a></li><?php endif ?>
+                                <li><a href="https://api.whatsapp.com/send?phone=573137356420" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a></li>
+                                <li><a href="https://www.facebook.com/carlosmaumarty" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/carlos-mauricio-martinez-perez-28b769123/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://github.com/carlosmaumarty17" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+                                <li><a href="https://portafolio-carlos-martinez-2025.netlify.app" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a></li>
+                                <li><a href="https://www.hackerrank.com/profile/carlosmaumarty17" target="_blank" rel="noopener noreferrer"><i class="fab fa-hackerrank"></i></a></li>
+                                <li><a href="https://www.canva.com/design/DAGDRdKPhbY/Ry9o7l5lMcD2k0ih19ngaA/view?utm_content=DAGDRdKPhbY&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noopener noreferrer"><i class="fab fa-canadian-maple-leaf"></i></a></li>
                             </ul>
                         </div>
                     </div>

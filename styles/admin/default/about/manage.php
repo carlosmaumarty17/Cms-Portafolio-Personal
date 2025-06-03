@@ -182,169 +182,69 @@
                         <div class="form-group-separator"></div>
                     </div>
                     <div class="tab-pane" id="v-social">
-
                         <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_facebook') ?></label>
+                            <label class="col-sm-2 control-label" for="field-1">WhatsApp</label>
                             <div class="col-sm-10">
-                                <?php echo form_input('about[facebook]', set_value('about[facebook]', $item->facebook), 'class="bg-focus form-control"') ?>
+                                <?php echo form_input('about[whatsapp]', set_value('about[whatsapp]', isset($item->whatsapp) ? $item->whatsapp : ''), 'class="bg-focus form-control" placeholder="https://api.whatsapp.com/send?phone=573137356420"') ?>
                             </div>
                         </div>
                         <div class="form-group-separator"></div>
 
                         <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_behance') ?></label>
+                            <label class="col-sm-2 control-label" for="field-1">Facebook</label>
                             <div class="col-sm-10">
-                                <?php echo form_input('about[behance]', set_value('about[behance]', $item->behance), 'class="bg-focus form-control"') ?>
+                                <?php echo form_input('about[facebook]', set_value('about[facebook]', $item->facebook), 'class="bg-focus form-control" placeholder="https://www.facebook.com/carlosmaumarty"') ?>
                             </div>
                         </div>
                         <div class="form-group-separator"></div>
 
                         <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_codepen') ?></label>
+                            <label class="col-sm-2 control-label" for="field-1">LinkedIn</label>
                             <div class="col-sm-10">
-                                <?php echo form_input('about[codepen]', set_value('about[codepen]', $item->codepen), 'class="bg-focus form-control"') ?>
+                                <?php echo form_input('about[linkedin]', set_value('about[linkedin]', $item->linkedin), 'class="bg-focus form-control" placeholder="https://www.linkedin.com/in/carlos-mauricio-martinez-perez-28b769123/"') ?>
                             </div>
                         </div>
                         <div class="form-group-separator"></div>
 
                         <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_dribbble') ?></label>
+                            <label class="col-sm-2 control-label" for="field-1">GitHub</label>
                             <div class="col-sm-10">
-                                <?php echo form_input('about[dribbble]', set_value('about[dribbble]', $item->dribbble), 'class="bg-focus form-control"') ?>
+                                <?php echo form_input('about[github]', set_value('about[github]', isset($item->github) ? $item->github : ''), 'class="bg-focus form-control" placeholder="https://github.com/carlosmaumarty17"') ?>
                             </div>
                         </div>
                         <div class="form-group-separator"></div>
 
                         <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_dropbox') ?></label>
+                            <label class="col-sm-2 control-label" for="field-1">Netlify</label>
                             <div class="col-sm-10">
-                                <?php echo form_input('about[dropbox]', set_value('about[dropbox]', $item->dropbox), 'class="bg-focus form-control"') ?>
+                                <?php echo form_input('about[netlify]', set_value('about[netlify]', isset($item->netlify) ? $item->netlify : ''), 'class="bg-focus form-control" placeholder="https://portafolio-carlos-martinez-2025.netlify.app"') ?>
                             </div>
                         </div>
                         <div class="form-group-separator"></div>
 
                         <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_flickr') ?></label>
+                            <label class="col-sm-2 control-label" for="field-1">HackerRank</label>
                             <div class="col-sm-10">
-                                <?php echo form_input('about[flickr]', set_value('about[flickr]', $item->flickr), 'class="bg-focus form-control"') ?>
+                                <?php echo form_input('about[hackerrank]', set_value('about[hackerrank]', isset($item->hackerrank) ? $item->hackerrank : ''), 'class="bg-focus form-control" placeholder="https://www.hackerrank.com/profile/carlosmaumarty17"') ?>
                             </div>
                         </div>
                         <div class="form-group-separator"></div>
 
                         <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_google_plus') ?></label>
+                            <label class="col-sm-2 control-label" for="field-1">Portafolio Canva</label>
                             <div class="col-sm-10">
-                                <?php echo form_input('about[google_plus]', set_value('about[google_plus]', $item->google_plus), 'class="bg-focus form-control"') ?>
+                                <?php echo form_input('about[canva]', set_value('about[canva]', isset($item->canva) ? $item->canva : ''), 'class="bg-focus form-control" placeholder="https://www.canva.com/design/DAGDRdKPhbY/..."') ?>
                             </div>
                         </div>
                         <div class="form-group-separator"></div>
 
                         <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_instagram') ?></label>
+                            <label class="col-sm-2 control-label"></label>
                             <div class="col-sm-10">
-                                <?php echo form_input('about[instagram]', set_value('about[instagram]', $item->instagram), 'class="bg-focus form-control"') ?>
+                                <input type="submit" class="btn btn-secondary " name="submit" value="<?php echo lang('global_submit') ?>">
+                                <a href="<?php echo site_url('admin/about'); ?>" class="btn btn-danger"><?php echo lang('global_cancel') ?></a>
                             </div>
                         </div>
-                        <div class="form-group-separator"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_linkedin') ?></label>
-                            <div class="col-sm-10">
-                                <?php echo form_input('about[linkedin]', set_value('about[linkedin]', $item->linkedin), 'class="bg-focus form-control"') ?>
-                            </div>
-                        </div>
-                        <div class="form-group-separator"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_pinterest') ?></label>
-                            <div class="col-sm-10">
-                                <?php echo form_input('about[pinterest]', set_value('about[pinterest]', $item->pinterest), 'class="bg-focus form-control"') ?>
-                            </div>
-                        </div>
-                        <div class="form-group-separator"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_reddit') ?></label>
-                            <div class="col-sm-10">
-                                <?php echo form_input('about[reddit]', set_value('about[reddit]', $item->reddit), 'class="bg-focus form-control"') ?>
-                            </div>
-                        </div>
-                        <div class="form-group-separator"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_rss') ?></label>
-                            <div class="col-sm-10">
-                                <?php echo form_input('about[rss]', set_value('about[rss]', $item->rss), 'class="bg-focus form-control"') ?>
-                            </div>
-                        </div>
-                        <div class="form-group-separator"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_skype') ?></label>
-                            <div class="col-sm-10">
-                                <?php echo form_input('about[skype]', set_value('about[skype]', $item->skype), 'class="bg-focus form-control"') ?>
-                            </div>
-                        </div>
-                        <div class="form-group-separator"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_snapchat') ?></label>
-                            <div class="col-sm-10">
-                                <?php echo form_input('about[snapchat]', set_value('about[snapchat]', $item->snapchat), 'class="bg-focus form-control"') ?>
-                            </div>
-                        </div>
-                        <div class="form-group-separator"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_soundcloud') ?></label>
-                            <div class="col-sm-10">
-                                <?php echo form_input('about[soundcloud]', set_value('about[soundcloud]', $item->soundcloud), 'class="bg-focus form-control"') ?>
-                            </div>
-                        </div>
-                        <div class="form-group-separator"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_stackoverfolw') ?></label>
-                            <div class="col-sm-10">
-                                <?php echo form_input('about[stackoverfolw]', set_value('about[stackoverfolw]', $item->stackoverfolw), 'class="bg-focus form-control"') ?>
-                            </div>
-                        </div>
-                        <div class="form-group-separator"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_tumblr') ?></label>
-                            <div class="col-sm-10">
-                                <?php echo form_input('about[tumblr]', set_value('about[tumblr]', $item->tumblr), 'class="bg-focus form-control"') ?>
-                            </div>
-                        </div>
-                        <div class="form-group-separator"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_twitter') ?></label>
-                            <div class="col-sm-10">
-                                <?php echo form_input('about[twitter]', set_value('about[twitter]', $item->twitter), 'class="bg-focus form-control"') ?>
-                            </div>
-                        </div>
-                        <div class="form-group-separator"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_vimeo') ?></label>
-                            <div class="col-sm-10">
-                                <?php echo form_input('about[vimeo]', set_value('about[vimeo]', $item->vimeo), 'class="bg-focus form-control"') ?>
-                            </div>
-                        </div>
-                        <div class="form-group-separator"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_yelp') ?></label>
-                            <div class="col-sm-10">
-                                <?php echo form_input('about[yelp]', set_value('about[yelp]', $item->yelp), 'class="bg-focus form-control"') ?>
-                            </div>
-                        </div>
-                        <div class="form-group-separator"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="field-1"> <?php echo lang('global_youtube') ?></label>
                             <div class="col-sm-10">
                                 <?php echo form_input('about[youtube]', set_value('about[youtube]', $item->youtube), 'class="bg-focus form-control"') ?>
                             </div>
