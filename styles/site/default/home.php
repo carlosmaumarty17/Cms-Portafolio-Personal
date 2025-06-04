@@ -311,9 +311,9 @@
                                         <?php echo lang('global_Work_History') ?>
                                     </h4>
                                     
-                                    <a class="bt-submit" href="<?php echo base_url() ?>/cdn/about/CURRICULUM-2024.pdf"><i class="fas fa-cloud-download-alt"></i> <?php echo lang('global_Download_Resume') ?></a>
-
-                                    <!-- <a class="bt-submit" href="<?php echo base_url() ?>/cdn/about/<?php echo config('resume') ?>"><i class="fas fa-cloud-download-alt"></i> <?php echo lang('global_Download_Resume') ?></a> -->
+                                    <a class="bt-submit" href="https://drive.google.com/uc?export=download&id=1WPmAMHa4a1zL5mKG-bX681ycEKDZmN5m" target="_blank">
+                                        <i class="fas fa-cloud-download-alt"></i> <?php echo lang('global_Download_Resume') ?>
+                                    </a>
 
                                 </div>
                                 <div class="main-timeline">
